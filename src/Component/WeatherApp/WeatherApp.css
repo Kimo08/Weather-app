@@ -88,3 +88,20 @@
 .icon {
   margin-top: 10px;
 }
+
+@media (max-width: 760px) {
+  .container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .top-bar input {
+    display: flex;
+    width: 300px;
+    height: 78px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
